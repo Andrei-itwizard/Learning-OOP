@@ -1,0 +1,7 @@
+#Ignores executables
+bin/
+obj/
+
+#Ignores other configs
+.vs/
+*.user
