@@ -1,14 +1,14 @@
 
 <div align = "justify"> 
-Așa cum zice și titlul, scopul acestui mini proiect a fost crearea unei stive folosind programarea orientată pe obiecte, ajutându-mă astfel să aplic ce am învățat la principiul încapsulării prin ascunderea unor informații precum dimensiunea stivei și unde se află vârful acesteia, pentru a nu fi manipulate / accesate din exteriorul clasei "Stiva".</div>
+As the title says, the goal of this mini project was to create a stack using object oriented programming, thus helping me apply what I've learned about encapsulatio through hiding atributes such as the stack's dimmension and its top, so that they're not accesed outside the "Stiva" class.</div>
 
-La fel ca o stivă obișnuită ea funcționează pe principiul LIFO (Last In, First Out) și poate face cele 3 operații de bază caracteristice unei stive:
+Like a regular stack it works on the LIFO principle (Last In, First Out) and it can do the 3 basic operations:
 # Push
-Adaugă un element în vârful stivei (cât timp aceasta nu este plină)
+Adds an element on top of the stack (provided it's not already full)
 
 # Pop
-Elimină elementul din vârful stivei, el nemaiputând fi accesat vreodată (asta dacă stiva nu e goală)
+Removes the top element, making it forever inaccessible (so long as the stack was not empty beforehand)
 
-# Peek (sau Top în C++)
-Dezvăluie care este valoarea elementului din vârful stivei (asta dacă există un element în stivă)
+# Peek (or Top in C++)
+Returns the stack's top element (just like Pop, the stack must have at least one element)
 

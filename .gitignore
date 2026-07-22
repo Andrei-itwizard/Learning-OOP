@@ -2,6 +2,6 @@
 bin/
 obj/
 
-#Ignores other configs
+#Ignores other configurations
 .vs/
 *.user
