@@ -8,7 +8,7 @@ namespace Stack_with_oop
     { 
         private int stack_size_max;
         private int varf_stiva = -1;
-        //Acest vector are nevoie de un constructor pentru a aloca memorie pentru el, deoarece nu se stie dimensiunea maxima a stivei
+        //This array needs a constructor for allocating memory, since the stack's dimension is not known 
         private int[] stack;
 
         public Stiva(int dimensiune)
