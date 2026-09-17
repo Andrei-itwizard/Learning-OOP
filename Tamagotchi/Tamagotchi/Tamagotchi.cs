@@ -6,9 +6,10 @@ namespace Tamagotchi
 {
     internal class Tamagotchi
     {   //Incapsulare. Aceste date nu pot fi accesate direct din exteriorul clasei, ci doar prin intermediul metodelor publice.
-        private int _nivelFoame;
-        private int _energie;
-        private int _nivelFericire;
+        //Actualizare: deoarece vreau sa creez o clasa separata pentru un alt tip de Tamagotchi (TamagotchiZburator), am schimbat modificatorul de acces de la private la protected, pentru a permite mostenirea acestor atribute in clasa derivata.
+        protected int _nivelFoame;
+        protected int _energie;
+        protected int _nivelFericire;
 
         //Constructorul clasei Tamagotchi. Acesta este apelat atunci când se creează un obiect de tip Tamagotchi.
         //Nu are parametri deoarece e folosit doar ca sa intializeze NivelFoame, Energie si NivelFericire la valorile alese de mine
