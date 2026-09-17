@@ -71,6 +71,13 @@ namespace Tamagotchi
                 throw new Exception("Tamagotchi-ul nu poate dormi deoarece este plin de energie! Du-te si joaca-te cu el!");
             }
         }
+
+        /*Metoda creata cu scopul de a aplica principiul polimorfismului (dinamic) -> include suprascrierea unei metode in clasa
+        TamagotchiZburator*/
+        public virtual void ScoateSunet()
+        {
+            Console.WriteLine("Meep, meep!");
+        }
         /*"$" indica un string interpolation, ce permite convertirea intr-un string si apoi afisarea oricarei variabile ce se afla 
         in interiorul acoladelor*/
         public void AfiseazaStare()
